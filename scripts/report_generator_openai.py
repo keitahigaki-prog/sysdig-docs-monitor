@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Japanese Report Generator using Claude API
+Japanese Report Generator using OpenAI GPT-4 API
 Analyzes Sysdig documentation changes and generates customer-ready reports in Japanese
 """
 
-import anthropic
+import openai
 import os
 import json
 from datetime import datetime
@@ -13,16 +13,16 @@ from typing import Dict, List, Any
 
 class JapaneseReportGenerator:
     def __init__(self, api_key: str = None, reports_dir: str = "reports"):
-        self.api_key = api_key or os.environ.get("ANTHROPIC_API_KEY")
+        self.api_key = api_key or os.environ.get("OPENAI_API_KEY")
         if not self.api_key:
-            raise ValueError("ANTHROPIC_API_KEY environment variable is required")
+            raise ValueError("OPENAI_API_KEY environment variable is required")
 
-        self.client = anthropic.Anthropic(api_key=self.api_key)
+        self.client = openai.OpenAI(api_key=self.api_key)
         self.reports_dir = Path(reports_dir)
         self.reports_dir.mkdir(exist_ok=True)
 
-    def analyze_with_claude(self, content: str, content_type: str) -> str:
-        """Analyze content using Claude API and generate Japanese summary"""
+    def analyze_with_gpt4(self, content: str, content_type: str) -> str:
+        """Analyze content using GPT-4 API and generate Japanese summary"""
 
         system_prompt = """あなたはSysdig製品の技術ドキュメント専門家です。
 お客様向けの分かりやすい日本語レポートを作成してください。
@@ -62,21 +62,21 @@ class JapaneseReportGenerator:
 """
 
         try:
-            message = self.client.messages.create(
-                model="claude-sonnet-4-5-20250929",
-                max_tokens=4096,
-                temperature=0,
-                system=system_prompt,
+            response = self.client.chat.completions.create(
+                model="gpt-4o",
                 messages=[
+                    {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt}
-                ]
+                ],
+                max_tokens=4096,
+                temperature=0
             )
 
-            return message.content[0].text
+            return response.choices[0].message.content
 
         except Exception as e:
-            print(f"Error calling Claude API: {e}")
-            return f"**エラー:** Claude APIの呼び出しに失敗しました: {str(e)}"
+            print(f"Error calling OpenAI API: {e}")
+            return f"**エラー:** OpenAI APIの呼び出しに失敗しました: {str(e)}"
 
     def generate_rss_analysis(self, feed_name: str, entries: List[Dict[str, Any]]) -> str:
         """Generate analysis for RSS feed entries"""
@@ -91,7 +91,7 @@ class JapaneseReportGenerator:
             content += f"Summary: {entry.get('summary', 'N/A')}\n"
             content += f"Link: {entry.get('link', 'N/A')}\n\n"
 
-        return self.analyze_with_claude(content, f"RSSフィード（{feed_name}）")
+        return self.analyze_with_gpt4(content, f"RSSフィード（{feed_name}）")
 
     def generate_webpage_analysis(self, page_name: str, page_data: Dict[str, Any]) -> str:
         """Generate analysis for web page content"""
@@ -110,7 +110,7 @@ class JapaneseReportGenerator:
         if "text_preview" in page_data:
             content += f"コンテンツプレビュー:\n{page_data['text_preview']}\n"
 
-        return self.analyze_with_claude(content, f"Webページ（{page_name}）")
+        return self.analyze_with_gpt4(content, f"Webページ（{page_name}）")
 
     def generate_full_report(self, monitoring_result: Dict[str, Any]) -> str:
         """Generate complete Japanese report"""
@@ -130,7 +130,7 @@ class JapaneseReportGenerator:
 
 """
 
-        # Generate executive summary using Claude
+        # Generate executive summary using GPT-4
         summary_content = {
             "has_changes": changes["has_changes"],
             "rss_changes_count": len(changes.get("rss_changes", {})),
@@ -147,15 +147,15 @@ class JapaneseReportGenerator:
 """
 
         try:
-            message = self.client.messages.create(
-                model="claude-sonnet-4-5-20250929",
-                max_tokens=512,
-                temperature=0,
+            response = self.client.chat.completions.create(
+                model="gpt-4o",
                 messages=[
                     {"role": "user", "content": summary_prompt}
-                ]
+                ],
+                max_tokens=512,
+                temperature=0
             )
-            report += message.content[0].text + "\n\n"
+            report += response.choices[0].message.content + "\n\n"
         except Exception as e:
             report += f"監視を実行しました。変更検出: {changes['has_changes']}\n\n"
 
@@ -207,7 +207,7 @@ class JapaneseReportGenerator:
         report += "- [Linux Host Shield Release Notes](https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/)\n"
         report += "- [Deprecation Notice](https://docs.sysdig.com/en/deprecation/)\n"
         report += "\n---\n\n"
-        report += f"*このレポートは自動生成されました（Claude API使用）*\n"
+        report += f"*このレポートは自動生成されました（OpenAI GPT-4使用）*\n"
 
         return report
 
