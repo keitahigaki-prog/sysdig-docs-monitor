@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-11-07T00:42:09.158074",
+  "rss_feeds": {
+    "agent": [],
+    "serverless": [],
+    "monitor": [],
+    "secure": [],
+    "onprem": [],
+    "falco": []
+  },
+  "web_pages": {
+    "host_shield": {
+      "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
+      "fetched_at": "2025-11-07T00:42:18.403106",
+      "content_hash": "b90b90aac4ed6613a8be319fb33d65355ee880650a149c3cfa1d54fabd51fa5c",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Host Shield for Linux Release Notes"
+        },
+        {
+          "level": "h2",
+          "text": "14.2.3 October 30, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Vulnerability Fixes"
+        },
+        {
+          "level": "h2",
+          "text": "14.2.2 October 08, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Updates"
+        },
+        {
+          "level": "h3",
+          "text": "Defect Fixes"
+        },
+        {
+          "level": "h3",
+          "text": "Vulnerability Fixes"
+        },
+        {
+          "level": "h2",
+          "text": "14.2.1 September 9, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Enhancements"
+        },
+        {
+          "level": "h3",
+          "text": "Defect Fixes"
+        }
+      ],
+      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nStarting from version 13.9.0, the new Linux Host Shield release notes will be available on this page.\nDeprecation Notice\nSupport Ending\nSupport for Agent versions older than 13.5.0 will end on November 28th, 2025, in line with the one-year support policy. We encourage you to complete your migration before this date.\nThe Customer Success team is available to support and guide you through the migration process to ensure a smooth transition.\nSee the\ndeprecation policy\nfor more details.\n14.2.3 October 30, 2025\nSupported\nsysdig-deploy\nversion:\n1.96.0\nSupported Falco Engine version:\n1000.49.0\nSupported\nshield\nchart version:\n1.22.0\nVulnerability Fixes\nThis release addresses the following security vulnerabilities:\nCVE-2025-58183\nCVE-2025-58185\nCVE-2025-58186\nCVE-2025-58188\nCVE-2025-61723\nCVE-2025-61724\nCVE-2025-61725\nCVE-2025-47912\nCVE-2025-50"
+    },
+    "deprecation": {
+      "url": "https://docs.sysdig.com/en/deprecation/",
+      "fetched_at": "2025-11-07T00:42:20.027659",
+      "content_hash": "c401dad80dfb901a84f94a44a85ed9115a810473bd2e10c9efa10c97f2ae82c3",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Deprecation Notes"
+        },
+        {
+          "level": "h2",
+          "text": "Nov 30, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Terraform properties in AWS & GCP Onboard"
+        },
+        {
+          "level": "h3",
+          "text": "CLI Scanners version 1.3.0 and earlier"
+        },
+        {
+          "level": "h2",
+          "text": "Sept 30, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Container ID as Primary Identifier in Vulnerability Management Scanning:"
+        },
+        {
+          "level": "h2",
+          "text": "Aug 1, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Serverless Orchestrator Agent"
+        },
+        {
+          "level": "h2",
+          "text": "July 18, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Legacy Scanning Engine"
+        }
+      ],
+      "text_preview": "Documentation\nDeprecation Notes\nDeprecation Notes\nWelcome to the deprecation notes for the SaaS and OnPrem versions of the Sysdig Platform. As part of our commitment to continuously improve the Sysdig platform, Sysdig may deprecate features and components over time. Deprecation decisions are made carefully, often in conjunction with new or improved capabilities.\nApplication\nDeprecated functionality\nAnnouncement\nDeprecation date\nHost Shield\n&\nAgent\nLinux Kernel prior to 3.10\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nCustom App Checks\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nSupport for Python 2.7\nFeb 1, 2025\nJune 17, 2025\nSaaS - Sysdig Secure\nLegacy Scanning Engine\nJuly 18, 2025\nJuly 18, 2025\nServerless Agent\nServerless Orchestrator Agent\nDec 17, 2024\nAug 1, 2025\nSaaS - Sysdig Secure\nTerraform properties in AWS & GCP Onboard\nJul 1, 2025\nNov 30, 2025\nHost Shield\n&\nAgent\nAgent Monitor Light mode\nAug 27, 2025\nAug 27, 2026\nHost Shield\nSupport for RHEL6 and CentOS6\nFeb 1, 2024\nMarch"
+    }
+  }
+}
