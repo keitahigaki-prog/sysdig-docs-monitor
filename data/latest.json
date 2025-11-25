@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-24T00:45:34.934886",
+  "timestamp": "2025-11-25T00:41:29.155093",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,7 +11,7 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2025-11-24T00:45:42.554397",
+      "fetched_at": "2025-11-25T00:41:37.350355",
       "content_hash": "855155b880042de640fa0b1bef9a5ae7e95c32e930c9dc7d81d0f4bf302c3134",
       "headings": [
         {
@@ -59,12 +59,20 @@
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2025-11-24T00:45:43.964776",
-      "content_hash": "c401dad80dfb901a84f94a44a85ed9115a810473bd2e10c9efa10c97f2ae82c3",
+      "fetched_at": "2025-11-25T00:41:38.979299",
+      "content_hash": "3d33e039280fae281b9bfa607dcc23e736e0e2e1f5fce72113a1578aeff72025",
       "headings": [
         {
           "level": "h1",
           "text": "Deprecation Notes"
+        },
+        {
+          "level": "h2",
+          "text": "December 15, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "List Matching Policies and Rules Creation"
         },
         {
           "level": "h2",
@@ -93,14 +101,6 @@
         {
           "level": "h3",
           "text": "Serverless Orchestrator Agent"
-        },
-        {
-          "level": "h2",
-          "text": "July 18, 2025"
-        },
-        {
-          "level": "h3",
-          "text": "Legacy Scanning Engine"
         }
       ],
       "text_preview": "Documentation\nDeprecation Notes\nDeprecation Notes\nWelcome to the deprecation notes for the SaaS and OnPrem versions of the Sysdig Platform. As part of our commitment to continuously improve the Sysdig platform, Sysdig may deprecate features and components over time. Deprecation decisions are made carefully, often in conjunction with new or improved capabilities.\nApplication\nDeprecated functionality\nAnnouncement\nDeprecation date\nHost Shield\n&\nAgent\nLinux Kernel prior to 3.10\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nCustom App Checks\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nSupport for Python 2.7\nFeb 1, 2025\nJune 17, 2025\nSaaS - Sysdig Secure\nLegacy Scanning Engine\nJuly 18, 2025\nJuly 18, 2025\nServerless Agent\nServerless Orchestrator Agent\nDec 17, 2024\nAug 1, 2025\nSaaS - Sysdig Secure\nTerraform properties in AWS & GCP Onboard\nJul 1, 2025\nNov 30, 2025\nHost Shield\n&\nAgent\nAgent Monitor Light mode\nAug 27, 2025\nAug 27, 2026\nHost Shield\nSupport for RHEL6 and CentOS6\nFeb 1, 2024\nMarch"
