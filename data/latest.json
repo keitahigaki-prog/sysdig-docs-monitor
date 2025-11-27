@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-26T00:42:55.134489",
+  "timestamp": "2025-11-27T00:42:00.773094",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,12 +11,20 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2025-11-26T00:43:02.713237",
-      "content_hash": "855155b880042de640fa0b1bef9a5ae7e95c32e930c9dc7d81d0f4bf302c3134",
+      "fetched_at": "2025-11-27T00:42:08.815013",
+      "content_hash": "fa781a41a43744ca0c671ab92711528ca29bf02b2ae9994e0df90cd2d3ca6ddc",
       "headings": [
         {
           "level": "h1",
           "text": "Host Shield for Linux Release Notes"
+        },
+        {
+          "level": "h2",
+          "text": "14.2.5 November 26, 2025"
+        },
+        {
+          "level": "h3",
+          "text": "Defect Fixes"
         },
         {
           "level": "h2",
@@ -45,21 +53,13 @@
         {
           "level": "h3",
           "text": "Defect Fixes"
-        },
-        {
-          "level": "h3",
-          "text": "Vulnerability Fixes"
-        },
-        {
-          "level": "h2",
-          "text": "14.2.1 September 9, 2025"
         }
       ],
-      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nStarting from version 13.9.0, the new Linux Host Shield release notes will be available on this page.\nDeprecation Notice\nSupport Ending\nSupport for Agent versions older than 13.5.0 will end on November 28th, 2025, in line with the one-year support policy. We encourage you to complete your migration before this date.\nThe Customer Success team is available to support and guide you through the migration process to ensure a smooth transition.\nSee the\ndeprecation policy\nfor more details.\n14.2.4 November 19, 2025\nSupported\nsysdig-deploy\nversion:\n1.96.4\nSupported Falco Engine version:\n1000.49.0\nSupported\nshield\nchart version:\n1.23.2\nVulnerability Fixes\nThis release addresses the following security vulnerabilities:\nCVE-2024-25621\nCVE-2025-47913\nCVE-2025-52881\nCVE-2025-58187\nCVE-2025-6965\nCVE-2025-53905\nCVE-2025-53906\nCVE-2025-64329\nCVE-2024-56"
+      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nStarting from version 13.9.0, the new Linux Host Shield release notes will be available on this page.\nDeprecation Notice\nSupport Ending\nSupport for Agent versions older than 13.5.0 will end on November 28th, 2025, in line with the one-year support policy. We encourage you to complete your migration before this date.\nThe Customer Success team is available to support and guide you through the migration process to ensure a smooth transition.\nSee the\ndeprecation policy\nfor more details.\n14.2.5 November 26, 2025\nSupported\nsysdig-deploy\nversion:\n1.96.5\nSupported Falco Engine version:\n1000.49.0\nSupported\nshield\nchart version:\n1.23.4\nDefect Fixes\nThis release is required only for customers who are contacted directly by a Sysdig representative. No upgrade is needed otherwise.\n14.2.4 November 19, 2025\nSupported\nsysdig-deploy\nversion:\n1.96.4\nSupp"
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2025-11-26T00:43:04.124739",
+      "fetched_at": "2025-11-27T00:42:10.269247",
       "content_hash": "3d33e039280fae281b9bfa607dcc23e736e0e2e1f5fce72113a1578aeff72025",
       "headings": [
         {
