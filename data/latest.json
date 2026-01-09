@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-08T00:46:09.269087",
+  "timestamp": "2026-01-09T00:46:02.831800",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,7 +11,7 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2026-01-08T00:46:17.704548",
+      "fetched_at": "2026-01-09T00:46:11.112369",
       "content_hash": "8bd555aa602ea367e3ae9a24f9df5d31e71d94b4065caa43ae6e13de337be273",
       "headings": [
         {
@@ -59,7 +59,7 @@
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2026-01-08T00:46:19.154647",
+      "fetched_at": "2026-01-09T00:46:12.625528",
       "content_hash": "acf1b3ab74782f23cb37586544671864a3dc90de2b7c7d9e168844ea82d7951e",
       "headings": [
         {
