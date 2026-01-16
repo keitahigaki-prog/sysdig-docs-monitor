@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-01-16T00:47:32.338373",
+  "changes": {
+    "has_changes": true,
+    "rss_changes": {},
+    "web_changes": {
+      "host_shield": {
+        "status": "updated",
+        "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/"
+      },
+      "deprecation": {
+        "status": "updated",
+        "url": "https://docs.sysdig.com/en/deprecation/"
+      }
+    }
+  },
+  "data": {
+    "timestamp": "2026-01-16T00:47:32.338373",
+    "rss_feeds": {
+      "agent": [],
+      "serverless": [],
+      "monitor": [],
+      "secure": [],
+      "onprem": [],
+      "falco": []
+    },
+    "web_pages": {
+      "host_shield": {
+        "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
+        "fetched_at": "2026-01-16T00:47:39.909639",
+        "content_hash": "f54a82c2f36d2099e194507450881ceaaaaddbd829e3630a540215c5479669d2",
+        "headings": [
+          {
+            "level": "h1",
+            "text": "Host Shield for Linux Release Notes"
+          },
+          {
+            "level": "h2",
+            "text": "14.3.2 January 15, 2026"
+          },
+          {
+            "level": "h3",
+            "text": "Defect Fixes"
+          },
+          {
+            "level": "h3",
+            "text": "Vulnerability Fixes"
+          }
+        ],
+        "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nDeprecation Notice\nSupport Ending\nStarting with version\n14.3.0\n,\nLegacy eBPF\nis deprecated.\nFuture releases will\nno longer introduce new features\nfor Legacy eBPF.\nTo ensure continued feature support and compatibility, we strongly recommend migrating to:\nUniversal eBPF\n, or\nKernel Module\non environments running kernels older than version 5.8\nFor more information, see the full\nDrivers documentation\n.\nSecure Mode\nis now deprecated and will be permanently retired on December 4, 2026.\nTo ensure continued support and benefit from improved performance, migrate to\nSecure_Light\nmode. This mode offers enhanced efficiency and is the long-term supported option moving forward.\nSee the\ndeprecation policy\nfor more details.\n14.3.2 January 15, 2026\nSupported\nsysdig-deploy\nversion:\n1.99.7\nSupported Falco Engine version:\n1000.51\nSupported\nshield\nchart ve"
+      },
+      "deprecation": {
+        "url": "https://docs.sysdig.com/en/deprecation/",
+        "fetched_at": "2026-01-16T00:47:41.328891",
+        "content_hash": "6de8ee2140172ab6b802eec3a4e414101ad116a16d14c37ef71afb11ddfa2e3d",
+        "headings": [
+          {
+            "level": "h1",
+            "text": "Deprecation Notes"
+          },
+          {
+            "level": "h2",
+            "text": "November 04, 2026"
+          },
+          {
+            "level": "h3",
+            "text": "Legacy eBPF Driver"
+          },
+          {
+            "level": "h3",
+            "text": "Secure Mode"
+          },
+          {
+            "level": "h3",
+            "text": "Configuration Keys"
+          },
+          {
+            "level": "h2",
+            "text": "February 28, 2026"
+          },
+          {
+            "level": "h3",
+            "text": "List Matching Policies and Rules Support"
+          },
+          {
+            "level": "h2",
+            "text": "December 15, 2025"
+          },
+          {
+            "level": "h3",
+            "text": "List Matching Policies and Rules Creation"
+          },
+          {
+            "level": "h2",
+            "text": "Nov 30, 2025"
+          }
+        ],
+        "text_preview": "Documentation\nDeprecation Notes\nDeprecation Notes\nWelcome to the deprecation notes for the SaaS and OnPrem versions of the Sysdig Platform. As part of our commitment to continuously improve the Sysdig platform, Sysdig may deprecate features and components over time. Deprecation decisions are made carefully, often in conjunction with new or improved capabilities.\nApplication\nDeprecated functionality\nAnnouncement\nDeprecation date\nHost Shield\n&\nAgent\nLegacy eBPF driver\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nAgent Secure mode\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\ncontainer_engines\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nSupport for Mesos metrics\nAugust 28, 2025\nAugust 28, 2026\nHost Shield\n&\nAgent\nAgent Monitor Light mode\nAug 27, 2025\nAug 27, 2026\nSaaS - Sysdig Secure\nTerraform properties in AWS & GCP Onboard\nJul 1, 2025\nNov 30, 2025\nHost Shield\n&\nAgent\nLinux Kernel prior to 3.10\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nCustom App Checks\nFeb 1, 2025\nJune 17, 2025\nHost Sh"
+      }
+    }
+  }
+}
