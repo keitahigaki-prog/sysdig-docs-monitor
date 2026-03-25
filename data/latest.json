@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T00:55:47.332112",
+  "timestamp": "2026-03-25T01:01:11.757902",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,8 +11,8 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2026-03-24T00:55:55.713567",
-      "content_hash": "3f5a686c4fa11abb0c6b94bfda0c2a75e80885e3182028e54febebbee8fbbe15",
+      "fetched_at": "2026-03-25T01:01:19.647722",
+      "content_hash": "9d4fa1477bb6116f62f1c991658257c7202f47719e5980964f01e638d05289fd",
       "headings": [
         {
           "level": "h1",
@@ -55,11 +55,11 @@
           "text": "Known Issues"
         }
       ],
-      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nDeprecation Notice\nSupport Ending\nStarting with version\n14.3.0\n,\nLegacy eBPF\nis deprecated.\nFuture releases will\nno longer introduce new features\nfor Legacy eBPF.\nTo ensure continued feature support and compatibility, we strongly recommend migrating to:\nUniversal eBPF\n, or\nKernel Module\non environments running kernels older than version 5.8\nFor more information, see the full\nDrivers documentation\n.\nSecure Mode\nis now deprecated and will be permanently retired on December 4, 2026.\nTo ensure continued support and benefit from improved performance, migrate to\nSecure_Light\nmode. This mode offers enhanced efficiency and is the long-term supported option moving forward.\nSee the\ndeprecation policy\nfor more details.\n14.4.1 March 12, 2026\nSupported\nsysdig-deploy\nversion:\n1.106.1\nSupported Falco Engine version:\n1000.52\nSupported\nshield\nchart ver"
+      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nDeprecation Notice\nSupport Ending\nStarting with version\n14.3.0\n,\nLegacy eBPF\nis deprecated and it will be unsupported after\nDecember 4, 2026\n.\nFuture releases will\nno longer introduce new features\nfor Legacy eBPF.\nTo ensure continued feature support and compatibility, we strongly recommend migrating to:\nUniversal eBPF\n, or\nKernel Module\non environments running kernels older than version 5.8\nFor more information, see the full\nDrivers documentation\n.\nSecure Mode\nis now deprecated and will be permanently retired on December 4, 2026.\nTo ensure continued support and benefit from improved performance, migrate to\nSecure_Light\nmode. This mode offers enhanced efficiency and is the long-term supported option moving forward.\nSee the\ndeprecation policy\nfor more details.\n14.4.1 March 12, 2026\nSupported\nsysdig-deploy\nversion:\n1.106.1\nSupported Falco"
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2026-03-24T00:55:57.165430",
+      "fetched_at": "2026-03-25T01:01:21.130433",
       "content_hash": "6de8ee2140172ab6b802eec3a4e414101ad116a16d14c37ef71afb11ddfa2e3d",
       "headings": [
         {
