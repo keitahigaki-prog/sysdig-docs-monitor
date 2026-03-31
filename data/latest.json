@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T01:09:27.464521",
+  "timestamp": "2026-03-31T01:07:25.566788",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,7 +11,7 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2026-03-30T01:09:35.684462",
+      "fetched_at": "2026-03-31T01:07:33.697751",
       "content_hash": "9d4fa1477bb6116f62f1c991658257c7202f47719e5980964f01e638d05289fd",
       "headings": [
         {
@@ -59,12 +59,20 @@
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2026-03-30T01:09:37.300165",
-      "content_hash": "6de8ee2140172ab6b802eec3a4e414101ad116a16d14c37ef71afb11ddfa2e3d",
+      "fetched_at": "2026-03-31T01:07:35.167619",
+      "content_hash": "6cab0642a56f4c02d7d22ab60061dfcbe24d3d73b7c232a71c30ad1fadbc2275",
       "headings": [
         {
           "level": "h1",
           "text": "Deprecation Notes"
+        },
+        {
+          "level": "h2",
+          "text": "March 31, 2027"
+        },
+        {
+          "level": "h3",
+          "text": "Zones Public API v1 and Terraform Zones v1 model"
         },
         {
           "level": "h2",
@@ -93,14 +101,6 @@
         {
           "level": "h2",
           "text": "December 15, 2025"
-        },
-        {
-          "level": "h3",
-          "text": "List Matching Policies and Rules Creation"
-        },
-        {
-          "level": "h2",
-          "text": "Nov 30, 2025"
         }
       ],
       "text_preview": "Documentation\nDeprecation Notes\nDeprecation Notes\nWelcome to the deprecation notes for the SaaS and OnPrem versions of the Sysdig Platform. As part of our commitment to continuously improve the Sysdig platform, Sysdig may deprecate features and components over time. Deprecation decisions are made carefully, often in conjunction with new or improved capabilities.\nApplication\nDeprecated functionality\nAnnouncement\nDeprecation date\nHost Shield\n&\nAgent\nLegacy eBPF driver\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nAgent Secure mode\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\ncontainer_engines\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nSupport for Mesos metrics\nAugust 28, 2025\nAugust 28, 2026\nHost Shield\n&\nAgent\nAgent Monitor Light mode\nAug 27, 2025\nAug 27, 2026\nSaaS - Sysdig Secure\nTerraform properties in AWS & GCP Onboard\nJul 1, 2025\nNov 30, 2025\nHost Shield\n&\nAgent\nLinux Kernel prior to 3.10\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nCustom App Checks\nFeb 1, 2025\nJune 17, 2025\nHost Sh"
