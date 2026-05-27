@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T01:50:43.444779",
+  "timestamp": "2026-05-27T01:58:45.195690",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,7 +11,7 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2026-05-26T01:50:51.184828",
+      "fetched_at": "2026-05-27T01:58:53.507810",
       "content_hash": "0df100d8fbac9e5a6b8eb82cd901a2b510460f531ff46d4dec5a8af6abeeedcb",
       "headings": [
         {
@@ -59,12 +59,20 @@
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2026-05-26T01:50:52.577117",
-      "content_hash": "6cab0642a56f4c02d7d22ab60061dfcbe24d3d73b7c232a71c30ad1fadbc2275",
+      "fetched_at": "2026-05-27T01:58:54.960336",
+      "content_hash": "0ca911b0e028d616511c09d702e75c3ac79fffcc4af51b7bc305d6ce323f29d8",
       "headings": [
         {
           "level": "h1",
           "text": "Deprecation Notes"
+        },
+        {
+          "level": "h2",
+          "text": "May 26, 2027"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud Connector"
         },
         {
           "level": "h2",
@@ -76,7 +84,7 @@
         },
         {
           "level": "h2",
-          "text": "November 04, 2026"
+          "text": "December 04, 2026"
         },
         {
           "level": "h3",
@@ -93,17 +101,9 @@
         {
           "level": "h2",
           "text": "February 28, 2026"
-        },
-        {
-          "level": "h3",
-          "text": "List Matching Policies and Rules Support"
-        },
-        {
-          "level": "h2",
-          "text": "December 15, 2025"
         }
       ],
-      "text_preview": "Documentation\nDeprecation Notes\nDeprecation Notes\nWelcome to the deprecation notes for the SaaS and OnPrem versions of the Sysdig Platform. As part of our commitment to continuously improve the Sysdig platform, Sysdig may deprecate features and components over time. Deprecation decisions are made carefully, often in conjunction with new or improved capabilities.\nApplication\nDeprecated functionality\nAnnouncement\nDeprecation date\nHost Shield\n&\nAgent\nLegacy eBPF driver\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nAgent Secure mode\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\ncontainer_engines\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nSupport for Mesos metrics\nAugust 28, 2025\nAugust 28, 2026\nHost Shield\n&\nAgent\nAgent Monitor Light mode\nAug 27, 2025\nAug 27, 2026\nSaaS - Sysdig Secure\nTerraform properties in AWS & GCP Onboard\nJul 1, 2025\nNov 30, 2025\nHost Shield\n&\nAgent\nLinux Kernel prior to 3.10\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&\nAgent\nCustom App Checks\nFeb 1, 2025\nJune 17, 2025\nHost Sh"
+      "text_preview": "Documentation\nDeprecation Notes\nDeprecation Notes\nWelcome to the deprecation notes for the SaaS and OnPrem versions of the Sysdig Platform. As part of our commitment to continuously improve the Sysdig platform, Sysdig may deprecate features and components over time. Deprecation decisions are made carefully, often in conjunction with new or improved capabilities.\nApplication\nDeprecated functionality\nAnnouncement\nDeprecation date\nSysdig Platform\ncloud-connector\nMay 26, 2026\nMay 26, 2027\nHost Shield\n&\nAgent\nLegacy eBPF driver\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nAgent Secure mode\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\ncontainer_engines\nDec 4, 2025\nDec 4, 2026\nHost Shield\n&\nAgent\nSupport for Mesos metrics\nAugust 28, 2025\nAugust 28, 2026\nHost Shield\n&\nAgent\nAgent Monitor Light mode\nAug 27, 2025\nAug 27, 2026\nSaaS - Sysdig Secure\nTerraform properties in AWS & GCP Onboard\nJul 1, 2025\nNov 30, 2025\nHost Shield\n&\nAgent\nLinux Kernel prior to 3.10\nFeb 1, 2025\nJune 17, 2025\nHost Shield\n&"
     }
   }
 }
