@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T01:55:41.492254",
+  "timestamp": "2026-07-03T01:25:47.656226",
   "rss_feeds": {
     "agent": [],
     "serverless": [],
@@ -11,12 +11,28 @@
   "web_pages": {
     "host_shield": {
       "url": "https://docs.sysdig.com/en/release-notes/linux-host-shield-release-notes/",
-      "fetched_at": "2026-07-02T01:55:49.464396",
-      "content_hash": "30f3a5da53f03a83fa4e02a280511c86e525cfa0c4868c50a785a79a83a7480d",
+      "fetched_at": "2026-07-03T01:25:55.760143",
+      "content_hash": "a61ec68eb14cc94c41e3e3ffd6c67c31a715cb818d2d4cd7b22668d14160afe3",
       "headings": [
         {
           "level": "h1",
           "text": "Host Shield for Linux Release Notes"
+        },
+        {
+          "level": "h2",
+          "text": "14.7.0 July 2, 2026"
+        },
+        {
+          "level": "h3",
+          "text": "Enhancements"
+        },
+        {
+          "level": "h3",
+          "text": "Defect Fixes"
+        },
+        {
+          "level": "h3",
+          "text": "Vulnerability Fixes"
         },
         {
           "level": "h2",
@@ -37,29 +53,13 @@
         {
           "level": "h3",
           "text": "Enhancements"
-        },
-        {
-          "level": "h3",
-          "text": "Defect Fixes"
-        },
-        {
-          "level": "h3",
-          "text": "Vulnerability Fixes"
-        },
-        {
-          "level": "h2",
-          "text": "14.6.0 May 19, 2026"
-        },
-        {
-          "level": "h3",
-          "text": "Enhancements"
         }
       ],
-      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nDeprecation Notice\nSupport Ending\nStarting with version\n14.3.0\n,\nLegacy eBPF\nis deprecated and it will be unsupported after\nDecember 4, 2026\n.\nFuture releases will\nno longer introduce new features\nfor Legacy eBPF.\nTo ensure continued feature support and compatibility, we strongly recommend migrating to:\nUniversal eBPF\n, or\nKernel Module\non environments running kernels older than version 5.8\nFor more information, see the full\nDrivers documentation\n.\nSecure Mode\nis now deprecated and will be permanently retired on December 4, 2026.\nTo ensure continued support and benefit from improved performance, migrate to\nSecure_Light\nmode. This mode offers enhanced efficiency and is the long-term supported option moving forward.\nSee the\ndeprecation policy\nfor more details.\n14.6.2 June 15, 2026\nSupported\nshield\nchart version:\n1.43.1\nSupported\nsysdig-d"
+      "text_preview": "RSS\nDocumentation\nRelease Notes\nHost Shield for Linux\nHost Shield for Linux Release Notes\nWelcome to the release notes for Sysdig Host Shield for Linux.\nDeprecation Notice\nSupport Ending\nStarting with version\n14.3.0\n,\nLegacy eBPF\nis deprecated and it will be unsupported after\nDecember 4, 2026\n.\nFuture releases will\nno longer introduce new features\nfor Legacy eBPF.\nTo ensure continued feature support and compatibility, we strongly recommend migrating to:\nUniversal eBPF\n, or\nKernel Module\non environments running kernels older than version 5.8\nFor more information, see the full\nDrivers documentation\n.\nSecure Mode\nis now deprecated and will be permanently retired on December 4, 2026.\nTo ensure continued support and benefit from improved performance, migrate to\nSecure_Light\nmode. This mode offers enhanced efficiency and is the long-term supported option moving forward.\nSee the\ndeprecation policy\nfor more details.\n14.7.0 July 2, 2026\nSupported\nshield\nchart version:\n1.46.0\nSupported\nsysdig-de"
     },
     "deprecation": {
       "url": "https://docs.sysdig.com/en/deprecation/",
-      "fetched_at": "2026-07-02T01:55:50.957278",
+      "fetched_at": "2026-07-03T01:25:57.168431",
       "content_hash": "0ca911b0e028d616511c09d702e75c3ac79fffcc4af51b7bc305d6ce323f29d8",
       "headings": [
         {
